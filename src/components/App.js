@@ -1,7 +1,16 @@
 import React from "react"
+import SearchBar from "./SearchBar"
 
 const App = () => {
-  return <div>App</div>
+  const containerWidth = {
+    marginTop: "20px"
+  }
+
+  return (
+    <div className="ui container" style={containerWidth}>
+      <SearchBar />
+    </div>
+  )
 }
 
 export default App
